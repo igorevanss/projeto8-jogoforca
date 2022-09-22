@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 1000px;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+
+main button {
+  background-color: #60b342;
+  height: 70px;
+  width: 220px;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+main button p {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
+.word-container {
+  width: 100%;
+}
+
+.letters {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 770px;
+}
+
+.letter {
+  width: 50px;
+  height: 50px;
+  background-color: #9faab5;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter p {
+  color: #5c5f63;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.guess-word {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  margin-top: 40px;
+}
+
+.guess-word p {
+  font-size: 22px;
+}
+
+.guess-word input {
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  border: 3px solid rgb(184, 183, 183);
+  background-color: #f4f5f7;
+}
+
+.guess-word button {
+  background-color: #e1ecf4;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid #39739D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guess-word button p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #39739D;
+}
